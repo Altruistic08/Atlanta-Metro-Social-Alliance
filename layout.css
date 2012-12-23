@@ -1,0 +1,57 @@
+body {
+	background-color: #E6E6E6;
+}
+header {
+	position: absolute;
+}
+#header p img {
+	margin-left: 140px;
+}
+#textBlock {
+	position: relative;
+	/*float: right;*/
+	
+	/* To have the textBlock div perfectly aligned next to the img, use this next line*/
+	/* margin-left: 380px; */
+	
+	margin-left: 400px;
+	background-color: #000080;
+	top: -223px;
+	font-family: "Zapfino";
+	color: white;
+	border-radius: 10px;
+	font-size: larger;
+	
+	/*Perfect width of the textBlock to match the navigation bar*/
+	/* width:740px; */
+	
+	width: 720px;
+	height: 185px;
+	box-shadow: 10px 1px 5px gray;
+	
+}
+#textBlock p {
+	text-align: center;
+	margin-bottom: -25px;
+}
+#nav {
+	margin-top: -200px;
+	margin-left: 140px
+}
+#nav a{
+	background-color: #000080;
+	color: red;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 43px;
+	padding-right: 43px;
+	font-weight: bold;
+	border: 1px solid black;
+	/*top: -30px;*/
+	font-family: "Tahoma", "Comic Sans", "Arial", sans-serif;
+	box-shadow: 10px 10px 5px gray;
+	
+}
+#nav a:hover {
+	color: white;
+}
